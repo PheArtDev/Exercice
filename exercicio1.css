@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 880px;   
+    text-align: center;
+    position: fixed;
+    display: inline-block;
+    top: -75px;
+}
+
+.Questao{
+   
+    margin: 45mm;
+    background-color:silver;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+    border:1px solid black;
+    border-radius: 20px;
+}
+article{
+    text-align: center;
+    width: 100%;
+    padding: 20px 1px;
+}
+.Questao h2{
+    text-align: justify;
+    padding: 10px;
+    font-style: oblique;
+    
+}
+label{
+    font-size:22px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 3px;
+    display: inline-block;
+    
+}
+input{
+    width: 80px;
+    height:20px;
+}
+button{
+    padding: 10px 0;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    background-color:rgb(245, 126, 47);
+    margin:20px ;
+    border-radius: 7px;
+}
+p{
+    font-size: 18px;
+    padding: 7px;
+}
